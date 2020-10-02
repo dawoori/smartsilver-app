@@ -1,7 +1,7 @@
 {
   "expo": {
-    "name": "silverApp",
-    "slug": "silverApp",
+    "name": "본인부담금 계산",
+    "slug": "silvercharger",
     "version": "1.0.0",
     "orientation": "portrait",
     "icon": "./assets/icon.png",
@@ -16,11 +16,12 @@
     "assetBundlePatterns": [
       "**/*"
     ],
-    "ios": {
-      "supportsTablet": true
+    "android": {
+      "package": "com.smartsilver.silvercharger",
+      "versionCode": 1
     },
     "web": {
-      "favicon": "./assets/favicon.png"
+      "favicon": "./assets/icon.png"
     }
   }
 }
